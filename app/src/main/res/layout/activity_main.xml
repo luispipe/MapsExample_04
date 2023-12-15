@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/mapMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show MapMarker"
+        android:textSize="22sp"
+        />
+    <Button
+        android:id="@+id/mapLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show MapLocation"
+        android:textSize="22sp"
+        />
+    <Button
+    android:id="@+id/mapSearch"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Show MapSearch"
+    android:textSize="22sp"
+    />
+
+</LinearLayout>
